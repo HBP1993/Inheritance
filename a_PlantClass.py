@@ -13,6 +13,7 @@ class Flower(Plant):
         Plant.__init__(self,color)
 
         self.__petals = petals
+        self.__color = "yellow"
 
     def get_petals(self):
         return self.__petals

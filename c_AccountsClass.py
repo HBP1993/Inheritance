@@ -46,7 +46,7 @@ class CD(SavingsAccount):
     # maturity date.
     
     def __init__(self, account_num, int_rate, bal, mat_date):
-        # Call the superclass __init__ method.
+        # Call the superclass __init__ method. 
         SavingsAccount.__init__(self, account_num, int_rate, bal)
 
         # Initialize the __maturity_date attribute.
